@@ -6,7 +6,7 @@ Deciding what to cook for when your to tired or just want to try something new.
 2. Recipie name.
 3. Picture of the dish.
 4. Ingredients and Cooking instructions.
-5. Below the ingredients is a lick to an instructional cooking video for the dish.
+5. Below the ingredients is a link to an instructional cooking video for the dish.
 6. If you dont like the recipe presented just click the "Dish-ision" button for a new random dish.
 7. In the top right of the page are links to four grocery delivery services. Instacart, Shipt, Amazon Fresh and Peapod.  Just in case you are missing an ingredient.
 
