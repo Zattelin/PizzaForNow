@@ -20,15 +20,20 @@
 
 
 
-    <title>Quick Dish</title>
+    <title>Impromptu</title>
 </head>
 
 <body>
 
     <nav>
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Quick Dish</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <!-- <a href="#" class="brand-logo center" id="start">Impromptu Recipe</a> -->
+        <!-- <button class="waves-effect waves-light btn " id= "start"> impromptu Recipe</button> -->
+
+            <ul id="nav-mobile" class="center">
+                <li>
+                    <a href="#" id="start">Impromptu Recipe</a>
+                </li>
                 <li>
                     <a href="https://www.instacart.com/" target="_blank">Instacart</a>
                 </li>
@@ -44,52 +49,41 @@
             </ul>
         </div>
     </nav>
+    
 
-    <br>
-    <div>
-        <!-- <h1>Quick Dish</h1> -->
-        <button class="waves-effect waves-light btn " id= "start">Quick Dish-ision</button>
-    </div>
-    <br>
 
 
     <div class="row">
-        <div class="col s8 offset-s2">
+        <div class="col l12 offset-l0">
             <div class="card">
                 <div class="card-title"></div>
-                <div class="card-image">
-                    <img id="foodThumb" src="assets/images/placeholder.png">
-                </div>
                 <div class="card-content row">
-                    <div class="col s4">
-                        <h3>Ingredients</h3>
-                        <ul id="ingredients">
-                        </ul>
+                    <h3>Ingredients</h3>
+                    <div class="ingredients col l3">
+                            <ul id="ingredients">
+                            </ul>
                     </div>
-                    <div class="col s8" id="instructions">
-                        <h3>Instructions</h3>
+                    <figure class="col l6 offset-l1">
+                        <div class="card-image change-ratio">
+                            <img id="foodThumb" src="assets/images/placeholder.png">
+                        </div>
+                    </figure>
+                    <div class="row">
+                        <div class="col l12" id="instructions">
+                            <h3>Instructions <button class="waves-teal btn-flat" id="youTube">Video Tutorial</button></h3>
+                        </div>
                     </div>
-                </div>
-
-
-
-                <div class="card-action">
-                    <button class="waves-teal btn-flat" id="youTube">Video Tutorial</button>
                 </div>
             </div>
         </div>
     </div>
 
 
-    <footer>
+
+
+    <!-- <footer>
         <p id="names">Zeppelin  Ryeon  Aaron  Christian &copy;</p>
-    </footer>
-
-    <!-- <video width="320" height="240" controls>
-        <source src="movie.mp4" type="video/mp4">
-        <source src="movie.ogg" type="video/ogg"> Your browser does not support the video tag.
-    </video> -->
-
+    </footer> -->
 
 </body>
 

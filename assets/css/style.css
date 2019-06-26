@@ -1,3 +1,29 @@
+figure {  
+    width:300px;
+    overflow: hidden;
+    margin:0;  
+}
+
+figure img{
+    display:block;
+    width:100%;  
+}
+
+nav {
+      background-color: dodgerblue;
+}
+
+#ingredients {
+  /* position: absolute;
+    top: 36px; */
+    column-count: 2;
+    column-gap: 0px;
+}
+
+.change-ratio img{
+     margin:-22% 0;
+}
+
 .card .card-image .card-title {
     color: black;
     background-color:  floralwhite;
@@ -75,4 +101,3 @@ h3 {
     text-shadow: #EDEDED 3px 2px 0;
     position: relative;
 }
-
